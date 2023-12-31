@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 const App = () => {
   return (
 
-    <div className='font-inter'>
+    <div className='font-inter bg-grey'>
     <BrowserRouter>
     <Navbar/>
     <Routes>
