@@ -1,0 +1,13 @@
+{
+  "shoes": [
+    {
+      "image": "/images/bestseller.jpg",
+      "title": "Spor Ayakkabı",
+      "stock": 100,
+      "colors": ["siyah", "beyaz", "mavi"],
+      "sizes": [38, 39, 40, 41, 42],
+      "description": "Konforlu ve şık spor ayakkabı.",
+      "categories": ["spor", "günlük"]
+    }
+  ]
+}
