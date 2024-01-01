@@ -1,6 +1,6 @@
 import React from 'react'
 import "./App.css"
-import { Home } from './pages'
+import { Home, Products } from './pages'
 import {Navbar} from './components'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 const App = () => {
@@ -11,6 +11,7 @@ const App = () => {
     <Navbar/>
     <Routes>
       <Route path='/' element={<Home/>}/>
+      <Route path='/products' element={<Products/>}/>
     </Routes>
     </BrowserRouter>
     </div>
